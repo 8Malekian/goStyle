@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#eaeaea">
+
+    <ImageView
+        android:id="@+id/image_promotion"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="3dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#54c271"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="10dp"
+        tools:text="@tools:sample/cities" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="55dp"
+        android:textStyle="bold"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:id="@+id/expired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="#ff5555"
+        android:textSize="20dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:id="@+id/datedebutvalidite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="130dp"
+        tools:layout_editor_absoluteY="57dp"
+        tools:text="@tools:sample/date/ddmmyy" />
+
+    <TextView
+        android:id="@+id/datefinvalidite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="130dp"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        tools:text="@tools:sample/date/mmddyy" />
+
+</RelativeLayout>
